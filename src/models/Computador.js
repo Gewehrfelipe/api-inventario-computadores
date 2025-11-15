@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 const computadorSchema = new mongoose.Schema({
-  id: { type: mongoose.Schema.Types.ObjectId },
+  //id: { type: mongoose.Schema.Types.ObjectId },
   fabricante: { type: String, required: true },
   modelo: { type: String },
   localizacao: { type: String },
